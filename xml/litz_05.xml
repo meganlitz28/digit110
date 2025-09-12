@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<poem><underline><title>BALLAD OF BOOKER T.</title></underline>
+<poem>
+    <underline>
+        <title>BALLAD OF BOOKER T.</title>
+    </underline>
     <author>Langston Hughes</author>
-    <person>Booker T</person>. <line n="1">Was a practical man.</line>
+    <person>Booker T</person>
+    <line n="1">Was a practical man.</line>
     <line n="2">He said, Till the soil</line>
     <line n="3">And learn from the land.</line>
     <!-- the stamp starts at line four under busket -->
@@ -52,4 +56,5 @@
     <!-- the signature is covering most of the importance -->
     <finalD>Final Draft,</finalD>
     <location where="finished-poem">Hollow Hills Farm, Monterey, California,</location>
-    <metadata>June 1, 1</metadata></poem>
+    <metadata>June 1, 1</metadata>
+</poem>
