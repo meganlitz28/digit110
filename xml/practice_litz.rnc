@@ -1,0 +1,9 @@
+start = root
+root = element xml {tile, desc, step+ }
+
+title = element title {text}
+
+desc = element desc {intro, text}
+intro = attribute intro {text}
+
+step = element step {mixed { (ing | item | yielded)*} }

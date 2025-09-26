@@ -1,0 +1,23 @@
+start = xml
+xml = element xml {source, poem}
+
+source = element source {title, author, date}
+
+title = element title {level, text}
+level = attribute level {xsd:ID}
+author = element author {text}
+date = element date {when}
+datePattern = (xsd:date | xsd:gYearMonth| xsd:gYear)
+when = attribute when {datePattern}
+
+poem = element poem {title, lg+}
+
+lg = element lg {ln+,text}
+
+ln = element ln {n, mixed { (placeName | place | motif)* }}
+
+n = attribute n {xsd:integer}
+placeName = element placeName {ref, text}
+place = element place {ref,text}
+ref = attribute ref { "NYC-Harlem" | "NYC-Man" | "NYC-PennSt" | "PR" | "Cuba" | "NYC" | "Ga"| "Fla" | "La" | "NYC-Brook"| "NYC-Bronx" | "Ha" | "Ja"}
+motif = element motif {text}
