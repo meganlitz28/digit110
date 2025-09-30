@@ -1,9 +1,9 @@
 start = recipe
-recipe = element recipe {title, desc, step+}
+recipe = element recipe {title, desc, (ing | step | result)+}
 
 title = element title {text}
 
-desc = element desc {intro, origin, owner, teach, time, text}
+desc = element desc { intro, mixed {(origin | owner | teach | time)*}}
 intro = attribute intro {xsd:ID}
 origin = element origin {when,text}
 when = attribute when {xsd:ID}
@@ -14,9 +14,11 @@ time = element time {created,text}
 created = attribute created {xsd:ID}
 
 
-step = element step {num, mixed { (recipe | ing | butter | sugar | mace | cinn | egg | flour | item | yielded | bake )* }}
+step = element step {recipes?, num?, type?, mixed { (recipe | item | yielded | bake | step )*}}
+
+
 num = attribute num { xsd:float}
-ing = element ing {text}
+ing = element ing {mixed { (butter | sugar | mace | cinn | egg | flour)*}}
 item = element item {tool,text}
 tool = attribute tool {xsd:ID}
 bake = attribute bake {xsd:ID}
@@ -29,4 +31,4 @@ mace = element mace {num,text}
 cinn = element cinn {num,text}
 egg = element egg {num,text}
 flour = element flour {num,text}
-recipes = attribute recipes {xsd:ID}
+recipes = attribute recipes {xsd:ID}*
