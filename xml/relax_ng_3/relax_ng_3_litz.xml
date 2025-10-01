@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="relax_ng_3_litz.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+    <title>Enter Sandman</title>
+    <gp num="1"><ln>… Say your prayers, little one</ln>
+        <ln>Don't forget, my son</ln>
+        <ln>To include everyone</ln>
+        <ln>I tuck you in, warm within, keep you free from sin</ln>
+        <ln>'Til the Sandman, he comes</ln></gp>
+    <gp num="2"><ln>...Sleep with one eye open</ln>
+        <ln>Gripping your pillow tight</ln></gp>
+    <gp num="3"><ln>… Exit light</ln>
+        <ln>Enter night </ln><ln>Take my hand</ln>
+        <ln>We're off to never-never land</ln></gp>
+    <gp num="4"><ln>… Something's wrong, shut the light, heavy thoughts tonight </ln><ln>And they
+            aren't of Snow White</ln>
+        <ln>Dreams of war, dreams of liars, dreams of dragons' fire</ln>
+        <ln>And of things that will bite, yeah</ln></gp>
+    <gp num="5"><ln>… Sleep with one eye open</ln><ln> Gripping your pillow tight</ln></gp>
+    <gp num="6"><ln>… Exit light </ln><ln>Enter night </ln><ln>Take my hand </ln><ln>We're off to
+            never-never land </ln><ln>Yeah, yeah</ln></gp>
+    <gp num="7"><ln>… Now I lay me down to sleep <respond type="answer">(now I lay me down to sleep)</respond> </ln><ln>Pray the Lord
+            my soul to keep <respond type="answer">(pray the Lord my soul to keep)</respond></ln>
+        <ln>If I die before I wake <respond type="answer">(if I die before I wake)</respond></ln><ln> Pray the Lord my soul to take
+            <respond type="answer">(pray the Lord my soul to take)</respond> </ln><ln>Hush, little baby, don't say a word</ln>
+        <ln>And never mind that noise you heard </ln><ln>It's just the beast under your bed</ln>
+        <ln>In your closet, in your head</ln></gp>
+    <gp num="8"><ln>… Exit light </ln><ln>Enter night </ln><ln>Grain of sand </ln><ln>Exit light
+            </ln><ln>Enter night</ln>
+        <ln>Take my hand</ln>
+        <ln>We're off to never-never land <respond type="answer">(yeah)</respond></ln></gp>
+    <gp num="9"><ln>… Oh, yeah, yeah, no </ln><ln>We're off to never-never land </ln><ln>Take my
+            hand</ln>
+        <ln>We're off to never-never land </ln><ln>Take my hand We're off to never-never land
+            </ln><ln>We're off to never-never land</ln>
+        <ln>We're off to never-never land </ln><ln>We're off to never-never land</ln></gp>
+</song>

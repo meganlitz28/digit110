@@ -19,13 +19,13 @@
 
     <step recipes="change">Our recipe (halved from the original)</step>
 
-    
-        <ing><butter num="0.5">1/2 lb. (2 sticks) butter, softened </butter><sugar num="0.5">1/2 lb.
-                sugar</sugar>
-            <mace num="0.25">1/4 tsp. mace</mace>
-            <cinn num="0.5">1/2 tsp. cinnamon</cinn>
-            <egg num="2">2 eggs</egg>
-            <flour num="0.75">3/4 lb. flour</flour></ing>
+
+    <ing><butter num="0.5">1/2 lb. (2 sticks) butter, softened </butter><sugar num="0.5">1/2 lb.
+            sugar</sugar>
+        <mace num="0.25">1/4 tsp. mace</mace>
+        <cinn num="0.5">1/2 tsp. cinnamon</cinn>
+        <egg num="2">2 eggs</egg>
+        <flour num="0.75">3/4 lb. flour</flour></ing>
 
     <step num="2"><item tool="handmixer">Using an electric mixer,</item> cream together the butter
         and sugar. Then add the eggs and mix at medium speed until the mixture looks curdled. Sift
