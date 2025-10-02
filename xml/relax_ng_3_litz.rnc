@@ -1,0 +1,16 @@
+start = song
+song = element song {title, gp+}
+title = element title {text}
+
+
+
+
+gp = element gp {num?, type?, mixed { (ln | respond )*}}
+
+
+
+ln = element ln {mixed {respond*}}
+
+respond = element respond {type, text}
+num = attribute num {xsd:integer}
+type = attribute type {"answer"}
