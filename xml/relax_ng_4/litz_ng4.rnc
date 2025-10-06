@@ -31,7 +31,9 @@ editor = element editor {id, text}
 source = element source {url, text}
 time = element time {dur, text}
 yield = element yield {text}
+
 id = attribute id {"JC" | "JM" | "btr" | "mlk" | "g-sug" | "egg" | "van" | "slt" | "flr" | "berry" | "p-sug" | "oven" | "bkdsh" | "blndr" | "stv" | "mik g-sug egg van slt flr" | "spoon"}
+
 url = attribute url {xsd:anyURI}
 dur = attribute dur {xsd:duration}
 
@@ -44,19 +46,21 @@ alt = element alt {quant, unit, text}
 quant = attribute quant {xsd:float}
 unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"}
 
-prep = element prep {heading, step*}
+prep = element prep {heading, step+}
 
-step = element step {n, mixed { (combine | equip | equipUse | ingUse | temp | size)*}}
+step = element step {n, mixed { (combine | equip | equipUse | ingUse)*}}
 
-equip = element equip {id?, mixed{(equip | equipUse | setting | time)*}}
+equip = element equip {id?, mixed{(equip | equipUse | setting | time | temp | size)*}}
 setting = element setting {text}
 temp = element temp {quant, unit, text}
 size = element size {depth, unit, text}
 depth = attribute depth {xsd:float}
 equipUse = element equipUse {ref?, mixed { ( temp | size | equip | equipUse | ingUse | setting | time)*}}
-ingUse = element ingUse {ref, quant, unit, text}
+
+ingUse = element ingUse {ref, quant?, unit?, text}
+
 ref = attribute ref {"mlk g-sug egg van slt flr" | "bkdsh" | "g-sug"  | "p-sug" | "berry" | "oven" | "btr"}
-combine = element combine {ref, text}
+combine = element combine {ref, (text | ingUse)*}
 n = attribute n {xsd:integer}
 
 
