@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend</title>
+            <editor> Megan Litz</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Mary Behrend</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mary Behrend Calendar pages</p>
+         </sourceDesc>
+
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="calpage" xml:id="calPage-1">
+            <!--<zone type="copyright">
+               <line>COPYRIGHT 1908, BY</line>
+               <line>FRIENDSHIP CALENDAR CO.</line>
+               <line>NEW BRITAIN, CONN.</line>
+            </zone>-->
+            <head><date when="1909-01-30">January 30, 1909 ;Saturday</date></head>
+            <figure>
+               <graphic url="IMG_2041.jpg"/>
+               <figDesc>A sketch of Mr. Behrend in bed</figDesc>
+            </figure>
+
+            <p> E.R.B "That dammed <unclear>old (ole)</unclear> lake gives me a shade. Pale Mercury
+               where it's dark. it like the fun, toothe rogue so tire of thee lark!" </p>
+         </div>
+
+
+         <div type="calpage" xml:id="calPage-2">
+            <!--<zone type="copyright">
+               <line>COPYRIGHT 1908, BY</line>
+               <line>FRIENDSHIP CALENDAR CO.</line>
+               <line>NEW BRITAIN, CONN.</line>
+            </zone>-->
+            <head>
+               <date when="1909-03-08">March 8, 1909 ;Monday</date>
+            </head>
+            <figure>
+               <figDesc>A bbig question mark that is taken up the whole page</figDesc>
+               <graphic url="IMG_2048.jpg"/>
+            </figure>
+
+            <p> Perhaps this is the day they decide it will be later. Love, M </p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
