@@ -26,7 +26,7 @@
                <line>FRIENDSHIP CALENDAR CO.</line>
                <line>NEW BRITAIN, CONN.</line>
             </zone>-->
-            <head><date when="1909-01-30">January 30, 1909 ;Saturday</date></head>
+            <head><date when="1909-01-30">January 30, 1909; Saturday</date></head>
             <figure>
                <graphic url="IMG_2041.jpg"/>
                <figDesc>A sketch of Mr. Behrend in bed</figDesc>
@@ -44,16 +44,35 @@
                <line>NEW BRITAIN, CONN.</line>
             </zone>-->
             <head>
-               <date when="1909-03-08">March 8, 1909 ;Monday</date>
+               <date when="1909-03-08">March 8, 1909; Monday</date>
             </head>
             <figure>
-               <figDesc>A bbig question mark that is taken up the whole page</figDesc>
+               <figDesc>A big question mark that is taken up the whole page</figDesc>
                <graphic url="IMG_2048.jpg"/>
             </figure>
 
-            <p> Perhaps this is the day they decide it will be later. Love, M </p>
+            <p change="redColor"> Perhaps this is the day they decide it will be later. Love, M </p>
          </div>
 
+
+         <div type="calpage" xml:id="calPage-3">
+            <!--<zone type="copyright">
+               <line>COPYRIGHT 1908, BY</line>
+               <line>FRIENDSHIP CALENDAR CO.</line>
+               <line>NEW BRITAIN, CONN.</line>
+            </zone>-->
+            <head>
+               <date when="1909-02-16">February 16, 1909; Tuesdy</date>
+            </head>
+            <figure>
+               <figDesc>It is Mr. Behrend with a bug in his hand. There is a tree next to him and then a forest or pond infront of him.</figDesc>
+               <graphic url="IMG_2042.jpg"/>
+            </figure>
+            
+            <p> Mr. Behrend finds a <unclear>red</unclear> bug. <c>I wonder if you have found many lately.</c> </p>
+<!--  {<c></c>} is a place holder for color in the calendar page -->            
+         </div>
+         
       </body>
    </text>
 </TEI>
