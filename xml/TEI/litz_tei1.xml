@@ -70,7 +70,8 @@
             </figure>
             
             <p> Mr. Behrend finds a <unclear>red</unclear> bug. <c>I wonder if you have found many lately.</c> </p>
-<!--  {<c></c>} is a place holder for color in the calendar page -->            
+<!--  {<c></c>} is a place holder for color in the calendar page --> 
+            <!--   {<c></c>} stands for the red ink sentence  -->            
          </div>
          
       </body>
