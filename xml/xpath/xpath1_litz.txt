@@ -1,0 +1,29 @@
+1. /TEI/text/body/div
+2. //div[@type='panelGrp']/cbml:panel
+3. //div[@type='panelGrp'][2]/cbml:panel
+4. //@characters
+5. //cbml:panel[@characters="#narrator"]
+6. //cbml:panel[floatingText]
+7. //cbml:panel[.//floatingText] => count()
+8.
+
+
+
+[ 
+//cbml:panel /*//floatingText/..
+]
+
+
+
+{ -first try-
+//teiHeader//p
+//teiHeader//*
+//teiHeader//publisher
+TEI/text//body
+//text//bibl
+//text//head
+//text//fw
+//text//note
+//teiHeader//namespace
+//teiHeader//sourceDesc
+}
