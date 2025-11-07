@@ -1,0 +1,16 @@
+-	distinct-values(//cbml:panel/@characters)
+-	//cbml:panel/@characters ! tokenize(. , ' ')
+-     //cbml:panel ! tokenize(@characters , ' ')
+-	distinct-values(//cbml:panel/@characters ! tokenize(. , ' '))
+-	//cbml:panel[contains(@characters, 'drkelly')]
+-	count(//cbml:panel[contains(@characters, 'drkelly')])
+-	//cbml:panel[ends-with(@characters, 'kelly')]
+-	//cbml:balloon ! string-length(.)
+-    //cbml:balloon ! normalize-space() ! string-length()
+-	max(//cbml:balloon ! string-length(.))
+-	//cbml:balloon[string-length(.) = max(//cbml:balloon ! string-length(.))]/@character
+-	//cbml:balloon[string-length(.) = min(//cbml:balloon ! string-length(.))]/@character
+-	//cbml:balloon[string-length(.) = min(//cbml:balloon ! string-length(.))]
+-	//cbml:panel[cbml:note[contains(., 'skull')]]
+-	//div[//cbml:balloon[contains(., 'NO')]]
+-	//div[.//cbml:balloon[contains(., 'NO')]]

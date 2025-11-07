@@ -1,0 +1,12 @@
+1. //body//div
+2. //body//div//*
+3. //body//div[5]
+4. //body//div=> count()
+5. //div//list[@sortKey='animals']
+6. //div//list[@sortKey='animals']=> count()
+7. //div//list[@sortKey='plants']
+8. //div//person/occupation[1]
+9. //div//person -1552
+10. //@sex
+11. //@sex => count()
+12. //[@sex="f"]=> count()

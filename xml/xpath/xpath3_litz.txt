@@ -1,0 +1,23 @@
+1. //div => count() : 9
+2. //div/count(*)
+- //div/*/count(*) : 20
+3. max(//div/*/count(*)) : 1112
+4. min(//div/*/count(*)) : 3
+- //div[3]/*/count(*)
+5. //div[count(*) = max(//div/count(*))]
+- //div[count(*) = min(//div/count(*))] 
+- //div[*/count(*) = max(//div/*/count(*))]
+6. distinct-values(//occupation/@type)
+- //occupation/@type =>  distinct-values()
+- //occupation/@type =>  distinct-values() => count()
+7. count(distinct-values(//occupation/@type))
+8. //occupation[@type="artist"]
+9. //person[occupation[@type="artist"]]
+10. //person[@sex="f"][occupation[@type="artist"]]
+11. //person[ @sex="f" and occupation[@type="artist"] ]
+12. //person[occupation[@subtype="engraver"]]
+13. //person[occupation[@subtype="engraver"]]/birth
+- //person[occupation[@subtype="engraver"]]/birth/@when => sort()
+ - //person[occupation[@subtype="engraver"]]/birth/@when ! string()
+14. //*/name()
+15. count(distinct-values(//*/name()))
