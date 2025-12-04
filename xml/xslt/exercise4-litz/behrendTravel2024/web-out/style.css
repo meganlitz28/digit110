@@ -1,0 +1,20 @@
+body {
+    background-color:#533d73; 
+    color: white; 
+    font-family: "Georgia", Garamond, serif;
+    line-height: 1.5em;
+    padding:3vw;
+}
+
+table { 
+    border-collapse: collapse;
+    border:.5vw solid #301934;
+    margin:auto;
+    
+}
+th, td {padding: 1em; }
+
+tr:nth-child(odd) {
+    background-color:gray; 
+    color: white; 
+    }

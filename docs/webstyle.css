@@ -1,7 +1,7 @@
 
 body {
 background-color: navy;
-color: grey;
+color: white;
 font-family: arial, helvetica, sans-serif;
 }
 ol {list-style-type: lower-alpha;
@@ -12,5 +12,12 @@ padding: 5em;
 section.flex {
    background-color:lightgrey;
      display:flex;  
-     border: 12px solid white;
-            }
+     border: 50px solid black;
+     width: auto;
+  height: 50%;
+  }
+  
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
