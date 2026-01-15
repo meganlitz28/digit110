@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <desc>Practice</desc>
+    <rect width="100%" height="100%"  x="10" y="10" rx="20" ry="20" fill="lightblue"/>
+    <g>
+        <circle cx="100" cy="210" r="50" fill="white" />
+        <circle cx="100" cy="140" r="40" fill="white" />
+        <circle cx="100" cy="80" r="30" fill="white" />
+        <line x1="0" y1="10" x2="200" y2="200" style="stroke:brown;stroke-width:2"/>
+        <line x1="0" y1="10" x2="300" y2="200" style="stroke:brown;stroke-width:2"/>
+        
+    </g>
+    
+    <g>
+        <ellipse cx="240" cy="85" rx="220" ry="30" fill="purple" />
+        <ellipse cx="220" cy="70" rx="190" ry="20" fill="blue" />
+        <ellipse cx="210" cy="55" rx="170" ry="15" fill="red" />
+    </g>
+    
+    
+    <polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160"
+        style="fill:yellow;stroke:red;stroke-width:4" />
+    
+    
+    
+</svg>
