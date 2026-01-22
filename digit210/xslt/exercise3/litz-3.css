@@ -1,0 +1,33 @@
+body {
+    background:gray;
+    color:blue;
+}
+
+section.main {
+outline-style:double;
+    outline-color:white;
+    padding:1em;
+}
+
+
+
+span.QuestEvent{
+font-weight: bold;
+   color:white;
+ 
+}
+
+span.charcater{
+    color:green;
+    font-weight: bold;
+}
+
+span.location{
+    color:pink;
+    font-weight: bold;
+}
+
+span.faction{
+    color:yellow;
+    font-weight: bold;
+}
