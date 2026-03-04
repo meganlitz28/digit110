@@ -1,0 +1,25 @@
+transcript: header?,(line | separator)*.
+
+-header: separator+. 
+
+{ebb: I removed speaker entirely here to get it working: but I think it's still ambiguous. Could only run in blitz
+ line: -cue, -nl, timestamp, -nl, speaker?, speech,-nl.}
+ 
+line: -cue, -nl, timestamp, -nl, speech,-nl?.
+-cue: digit+. 
+
+timestamp: start, -" --> ", end.
+@start: time.
+@end: time.
+-time: digit, digit, ":", digit, digit, ":", digit, digit, [","; "."], digit, digit, digit.
+
+speaker: name, -": ", -nl?. 
+-name: [L | P | " "]+.
+
+{ebb: problem  b/c you're saying to exclude anything that is not a newline OR a not a number: speech: 
+(~[#a; #d])+, (nl, ~[#a; #d | "0"-"9"]+)*.} 
+speech: (~[#a; #d])+, (nl, ~[#a; #d]+)*. 
+
+-separator: (nl, nl+) | nl. 
+-nl: -#a | -#d, -#a?. 
+-digit: ["0"-"9"].

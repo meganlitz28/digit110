@@ -1,0 +1,37 @@
+<fail xmlns:ixml='http://invisiblexml.org/NS' ixml:state='failed'>
+   <line>9</line>
+   <column>3</column>
+   <pos>136</pos>
+   <unexpected>t</unexpected>
+   <permitted>#A, #D, ['0'-'9']</permitted>
+   <completions>
+      <completed rule='cue' start='134' end='135'>
+         <input>30</input>
+      </completed>
+      <completed rule='line' start='78' end='133'>
+         <input>2␊00:00:07,330  ... Friday January␊</input>
+      </completed>
+      <completed rule='separator' start='76' end='77'>
+         <input>␊␊</input>
+      </completed>
+      <completed rule='speech' start='33' end='75'>
+         <input>Greetings digit ... he end of class</input>
+      </completed>
+      <completed rule='line' start='1' end='75'>
+         <input>1␊00:00:03,190  ... he end of class</input>
+      </completed>
+   </completions>
+   <could-be-next>
+      <in rule='nl'>
+         <tokens>#A, #D</tokens>
+      </in>
+      <in rule='digit'>
+         <tokens>['0'-'9']</tokens>
+      </in>
+   </could-be-next>
+   <unfinished>
+      <open rule='line' start='134' end='135'>
+         <input>30</input>
+      </open>
+   </unfinished>
+</fail>
