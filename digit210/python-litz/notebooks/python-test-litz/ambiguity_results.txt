@@ -1,0 +1,38 @@
+ARTHUR TV SHOW: AMBIGUITY ANALYSIS
+===================================
+
+TOP 15 AMBIGUOUS WORDS IN SEASON 5:
+like            | Tags: 4 (SCONJ, INTJ, ADP, VERB)
+right           | Tags: 4 (ADJ, INTJ, ADV, NOUN)
+all             | Tags: 3 (DET, ADV, PRON)
+a               | Tags: 3 (DET, PRON, NOUN)
+second          | Tags: 3 (ADJ, PROPN, NOUN)
+go              | Tags: 3 (VERB, PROPN, NOUN)
+so              | Tags: 3 (SCONJ, CCONJ, ADV)
+well            | Tags: 3 (ADJ, INTJ, ADV)
+sure            | Tags: 3 (ADJ, INTJ, ADV)
+that            | Tags: 3 (SCONJ, DET, PRON)
+no              | Tags: 3 (DET, INTJ, NOUN)
+time            | Tags: 3 (VERB, PROPN, NOUN)
+read            | Tags: 3 (VERB, PROPN, NOUN)
+animatronic     | Tags: 3 (ADJ, PROPN, NOUN)
+look            | Tags: 3 (VERB, PROPN, NOUN)
+
+===================================
+
+TOP 15 AMBIGUOUS WORDS IN SEASON 8:
+that            | Tags: 4 (SCONJ, DET, ADV, PRON)
+no              | Tags: 4 (INTJ, DET, PROPN, NOUN)
+like            | Tags: 4 (SCONJ, INTJ, ADP, VERB)
+a               | Tags: 3 (DET, PRON, NOUN)
+up              | Tags: 3 (ADP, ADV, NOUN)
+step            | Tags: 3 (VERB, PROPN, NOUN)
+head            | Tags: 3 (VERB, PROPN, NOUN)
+sure            | Tags: 3 (ADJ, INTJ, ADV)
+comic           | Tags: 3 (ADJ, PROPN, NOUN)
+all             | Tags: 3 (DET, ADV, PRON)
+right           | Tags: 3 (ADJ, ADV, NOUN)
+sorry           | Tags: 3 (ADJ, INTJ, PROPN)
+back            | Tags: 3 (ADP, ADV, NOUN)
+home            | Tags: 3 (PROPN, ADV, NOUN)
+o               | Tags: 3 (INTJ, PROPN, NOUN)
